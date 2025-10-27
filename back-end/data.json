@@ -1,0 +1,442 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bKp9VQydMBRmwW67obqD7"
+    },
+    {
+      "id": 2,
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpwbbPF3fdjbQWh"
+    },
+    {
+      "id": 3,
+      "fullName": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "abVy7NJdWNqgGCcD9Lo"
+    },
+    {
+      "id": 4,
+      "fullName": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "tG8dHQpXu2FFeqoMna7L"
+    },
+    {
+      "id": 5,
+      "fullName": "Tran Thi E",
+      "email": "tranthe@gmail.com",
+      "password": "tranthe",
+      "token": "E9xpWXYz8c8tn6MkM"
+    },
+    {
+      "id": 6,
+      "fullName": "Pham Van F",
+      "email": "phamf@gmail.com",
+      "password": "phamf",
+      "token": "Jz3UwUeeDJG7oDfQ"
+    },
+    {
+      "id": 7,
+      "fullName": "Hoang Thi G",
+      "email": "hoangg@gmail.com",
+      "password": "hoangg",
+      "token": "Pvq1z7Waa8GHxzLl"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "Javascript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của...?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Ai là người đưa ra các tiêu chuẩn Web?",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo đường liên kết trong HTML?",
+      "answers": [
+        "<p>",
+        "<a>",
+        "<link>",
+        "<img>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Thuộc tính nào để mở liên kết trong tab mới?",
+      "answers": [
+        "href",
+        "src",
+        "target='_blank'",
+        "rel='noopener'"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Thẻ HTML nào là block-level?",
+      "answers": [
+        "<span>",
+        "<a>",
+        "<div>",
+        "<img>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "HTML5 hỗ trợ thẻ nào để nhúng video?",
+      "answers": [
+        "<media>",
+        "<video>",
+        "<object>",
+        "<src>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Thẻ semantic nào dùng cho phần điều hướng?",
+      "answers": [
+        "<nav>",
+        "<section>",
+        "<article>",
+        "<aside>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "topicId": 2,
+      "question": "CSS viết tắt của gì?",
+      "answers": [
+        "Creative Style Sheets",
+        "Colorful Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi màu chữ?",
+      "answers": [
+        "color",
+        "font-color",
+        "text-color",
+        "bgcolor"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "topicId": 2,
+      "question": "Cách viết đúng để chọn tất cả thẻ <p> trong CSS?",
+      "answers": [
+        "p:all",
+        "p{}",
+        "p()",
+        "select p"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topicId": 2,
+      "question": "Thuộc tính nào căn giữa văn bản?",
+      "answers": [
+        "text-align",
+        "center",
+        "align",
+        "text-center"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 2,
+      "question": "Câu nào là cú pháp hợp lệ của CSS?",
+      "answers": [
+        "body:color=black;",
+        "body {color: black;}",
+        "{body:color=black}",
+        "body-color: black;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "topicId": 2,
+      "question": "CSS có thể được áp dụng bằng cách nào?",
+      "answers": [
+        "Inline",
+        "Internal",
+        "External",
+        "Cả 3 đáp án trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "topicId": 3,
+      "question": "Biến trong JavaScript được khai báo bằng?",
+      "answers": [
+        "int",
+        "var/let/const",
+        "define",
+        "variable"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "topicId": 3,
+      "question": "Phương thức nào để in ra console?",
+      "answers": [
+        "print()",
+        "echo()",
+        "console.log()",
+        "output()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "topicId": 3,
+      "question": "Kiểu dữ liệu nào sau đây là primitive?",
+      "answers": [
+        "Array",
+        "Object",
+        "Function",
+        "Boolean"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "topicId": 3,
+      "question": "Toán tử === trong JavaScript dùng để?",
+      "answers": [
+        "So sánh giá trị",
+        "Gán giá trị",
+        "So sánh giá trị và kiểu",
+        "Nối chuỗi"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "topicId": 3,
+      "question": "Hàm nào để chuyển chuỗi thành số?",
+      "answers": [
+        "Number()",
+        "parseInt()",
+        "parseFloat()",
+        "Tất cả các đáp án trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 19,
+      "topicId": 3,
+      "question": "JSON là gì?",
+      "answers": [
+        "JavaScript Only",
+        "Data format",
+        "Kiểu dữ liệu mới",
+        "None"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "topicId": 4,
+      "question": "React là gì?",
+      "answers": [
+        "Framework",
+        "Thư viện UI",
+        "Ngôn ngữ lập trình",
+        "Cơ sở dữ liệu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "topicId": 4,
+      "question": "Hook nào để quản lý state trong React?",
+      "answers": [
+        "useEffect",
+        "useState",
+        "useContext",
+        "useRef"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "topicId": 4,
+      "question": "JSX là gì trong React?",
+      "answers": [
+        "Java Standard XML",
+        "Cấu trúc API",
+        "Cú pháp mở rộng JavaScript",
+        "CSS nâng cao"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "topicId": 4,
+      "question": "Component nào tự định nghĩa được?",
+      "answers": [
+        "Built-in",
+        "Functional",
+        "Arrow",
+        "Custom"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 24,
+      "topicId": 4,
+      "question": "Dùng prop để?",
+      "answers": [
+        "Truyền dữ liệu giữa components",
+        "Tạo CSS",
+        "Gọi API",
+        "Chia nhỏ file"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "userId": 5,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 6,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 8,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 7,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 14,
+          "answer": 1
+        },
+        {
+          "questionId": 15,
+          "answer": 2
+        },
+        {
+          "questionId": 16,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 5,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 20,
+          "answer": 1
+        },
+        {
+          "questionId": 21,
+          "answer": 1
+        },
+        {
+          "questionId": 22,
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

@@ -2,29 +2,38 @@ import { NavLink, Outlet } from "react-router-dom";
 import "./LayoutDefault.scss";
 
 function LayoutDefault() {
+
+    const navLinkActive = (e) => {
+        return e.isActive ? "menu__link menu__link--active" : "menu__link";
+    }
+
     return (
         <>
             <div className="layout-default">
                 <header className="layout-default__header">
                     <div className="layout-default__logo">Quiz</div>
-                    <div className="meun">
+                    <div className="menu">
                         <ul>
                             <li>
-                                <NavLink to="/">
+                                <NavLink to="/" className={navLinkActive}>
                                     Home
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/">
+                                <NavLink to="/topic" className={navLinkActive}>
                                     Topic
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/">
+                                <NavLink to="/answers" className={navLinkActive}>
                                     Answers
                                 </NavLink>
                             </li>
                         </ul>
+                    </div>
+                    <div className="layout-default__account">
+                        <NavLink to="/login" className={navLinkActive}>Login</NavLink>
+                        <NavLink to="/register" className={navLinkActive}>Register</NavLink>
                     </div>
                 </header>
                 <main className="layout-default__main">

@@ -1,6 +1,6 @@
 .layout-default {
     &__header {
-        background-color: #34e07c;
+        background-color: #FFC679;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -12,7 +12,7 @@
     }
 
     &__footer {
-        background-color: #34e07c;
+        background-color: #FFC679;
         text-align: center;
         padding: 10px 20px;
     }
@@ -46,7 +46,7 @@
         right: 0;
         display: none!important;
         flex-direction: column;
-        background-color: #49c683;
+        background-color: #FFC679;
 
         li {
             margin-left: 0!important;
