@@ -1,3 +1,4 @@
+// data/import.js
 import mysql from "mysql2/promise";
 import fs from "fs";
 
@@ -9,7 +10,7 @@ async function importData() {
     database: "quiz_app"
   });
 
-  const data = JSON.parse(fs.readFileSync("./data.json", "utf-8"));
+  const data = JSON.parse(fs.readFileSync("./data/data.json", "utf-8"));
 
   console.log("🔄 Importing users...");
   for (const user of data.users) {
@@ -35,7 +36,7 @@ async function importData() {
         q.id,
         q.topicId,
         q.question,
-        JSON.stringify(q.answers), // lưu dạng JSON
+        JSON.stringify(q.answers),
         q.correctAnswer
       ]
     );
